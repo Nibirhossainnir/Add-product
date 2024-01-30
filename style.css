@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+#form{
+    margin: 10px auto;
+    width: 450px;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 7px;
+}
+#form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form input,#form textarea{
+    width: 100%;
+    padding: 7px;
+    font-size: 17px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    outline: none;
+}
+#form textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+    min-height: 90px;
+    overflow:auto;
+    resize:none;
+}
+#form button{
+    width: 100%;
+    padding: 7px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+#form button:active{
+    border: 1.99px solid rgba(0, 0, 0, 1);
+    transform: scale(0.995);
+}
+.section-heading{
+  margin: 20px 0px;  
+}
+.product{
+    position: relative;
+    width: 250px;
+    height: fit-content;
+    padding: 10px;
+    background-color: #ddd;
+    margin-right: 10px;
+    top: 10px;
+}
+.product img{
+    max-width: 100%;
+}
+.product a button{
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+    background-color: rgb(176, 154, 154);
+    border: none;
+}
+.product a button:active{
+    transform: scale(0.98);
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items:top;
+    flex-wrap: wrap;
+    box-shadow: inset 0 0 10px 30px rgb(25, 139, 14);
+}
